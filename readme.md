@@ -1,7 +1,7 @@
-## learnings :-
+# learnings :-
 
- ### Till now i learned -  
+ ### Till now i have learned -  
 #### *Basic HTML*  
 #### *Basic CSS*  
 
-#### And manage to create my own component library that i will use in my next projects.
+####  **So, This repository is all about my component library code that i have created .**  
