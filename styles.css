@@ -1,13 +1,50 @@
-body{
-    color:blue
+/** typography**/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Crimson+Text&family=DM+Serif+Display:ital@0;1&family=Indie+Flower&family=Lora:ital,wght@1,600&family=Montserrat:wght@900&family=Pacifico&family=Playfair+Display:ital,wght@0,400;1,400;1,500&family=Source+Code+Pro:wght@500&display=swap');
+
+:root{
+    --primary-color: rgb(100, 32, 146);
 }
 
-h3{
-    color:darkgreen
+hr{
+    margin:1rem 0rem;
 }
-#typohead{
-    color:darkred
+body{
+    font-family: 'Cinzel', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Source Code Pro', monospace;
 }
-.para{
-    color:red
+
+/** container **/
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 500px;
+    margin: auto;
+}
+/** links **/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.8rem ;
+    color: white;
+   
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.8rem ;
+    border: 2px solid var(--primary-color); 
 }
