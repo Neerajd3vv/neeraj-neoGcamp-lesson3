@@ -2,8 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Crimson+Text&family=DM+Serif+Display:ital@0;1&family=Indie+Flower&family=Lora:ital,wght@1,600&family=Montserrat:wght@900&family=Pacifico&family=Playfair+Display:ital,wght@0,400;1,400;1,500&family=Source+Code+Pro:wght@500&display=swap');
 
+
 :root{
     --primary-color: #4f46e5;
+    --darkgrey: #6b7280;
 }
 
 hr{
@@ -85,3 +87,27 @@ padding:0.8rem;
 .navigation-container .active-link{
     font-weight: bold;
 }
+
+/** header**/
+
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display:block;
+    margin:auto;
+
+}
+.hero .hero-heading{
+    color: var(--darkgrey);
+    padding: 2rem;
+
+}
+.header.hero-heading.hero-about{
+    color: var(--primary-color)
+}
+.hero .hero-heading .hero-about{
+    color:var(--primary-color);
+}
+
