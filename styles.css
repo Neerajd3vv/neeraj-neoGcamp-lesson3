@@ -24,8 +24,8 @@ font-family: 'Source Code Pro', monospace;
 /** container **/
 
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 2rem;
 }
 
 .container-center{
@@ -35,7 +35,7 @@ font-family: 'Source Code Pro', monospace;
 /** links **/
 .link{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: .8rem 1rem;
 }
 .link-primary{
     background-color: var(--primary-color);
@@ -56,4 +56,32 @@ font-family: 'Source Code Pro', monospace;
 .list-inline-item{
    display:inline;
    padding:0rem 0.8rem;
+}
+
+/** Nav **/
+
+
+.navigation-container{
+background-color: var(--primary-color);
+border-bottom-left-radius: 1rem;
+border-top-right-radius: 1rem;
+
+
+color:white;
+padding:0.8rem;
+
+}
+.navigation-container .link{
+    color:white;
+    
+}
+.non-bullet-nav-pills{
+    text-align: right;
+}
+.navigation-container .nav-magic {
+    font-weight: bold ;
+    font-size: large;
+} 
+.navigation-container .active-link{
+    font-weight: bold;
 }
